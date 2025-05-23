@@ -64,18 +64,22 @@
 
     <section class="section" id="form">
       <h2>Get a Free Insurance Consultation</h2>
-      <form action="https://formspree.io/f/your-form-id" method="POST">
+      <form action="https://formsubmit.co/ychikhale24@gmail.com" method="POST">
+        <input type="hidden" name="_subject" value="New Insurance Lead!">
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_template" value="table">
+
         <label for="name">Full Name:</label>
-        <input type="text" id="name" name="name" required />
+        <input type="text" id="name" name="Full Name" required />
 
         <label for="mobile">Mobile Number:</label>
-        <input type="tel" id="mobile" name="mobile" required pattern="[0-9]{10}" />
+        <input type="tel" id="mobile" name="Mobile Number" required pattern="[0-9]{10}" />
 
         <label for="city">City:</label>
-        <input type="text" id="city" name="city" required />
+        <input type="text" id="city" name="City" required />
 
         <label for="insurance">Type of Insurance Needed:</label>
-        <select id="insurance" name="insurance">
+        <select id="insurance" name="Insurance Type">
           <option value="health">Health Insurance</option>
           <option value="life">Life Insurance</option>
           <option value="senior">Senior Citizen Policy</option>
@@ -107,12 +111,16 @@
 
     <section class="section" id="feedback-form">
       <h2>Share Your Feedback</h2>
-      <form action="https://formspree.io/f/your-form-id" method="POST">
+      <form action="https://formsubmit.co/ychikhale24@gmail.com" method="POST">
+        <input type="hidden" name="_subject" value="New Feedback Received">
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_template" value="table">
+
         <label for="fname">Full Name:</label>
-        <input type="text" id="fname" name="name" required />
+        <input type="text" id="fname" name="Full Name" required />
 
         <label for="fmessage">Your Feedback:</label>
-        <textarea id="fmessage" name="message" rows="5" required></textarea>
+        <textarea id="fmessage" name="Feedback" rows="5" required></textarea>
 
         <button type="submit">Send Feedback</button>
       </form>
